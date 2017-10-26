@@ -1,3 +1,62 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.hola{
+	
+	width: 100%;
+	height: auto;
+	z-index: -1;
+	float: left;
+
+}
+
+.caja {
+	width: 100%;
+	height: 100px;
+	position:fixed;
+	
+
+}
+
+
+.logo img {
+	outline: 1px solid green;
+	width: 60px;
+	height: auto;
+}
+
+
+.caja nav {
+
+	outline: 1px solid red;
+	width:1200px;
+	height:  100px;
+	position: absolute;
+	margin-left: 900px;	
+}
+
+a {
+	font-family: "MONTSERRAT"
+}
+
+header .caja nav ul li{
+	outline: 1px solid blue;
+   display: inline-block;
+   margin: 0px;
+   padding: 0px;
+   margin:20px;
+}
+
+header .caja nav ul li a {
+	
+	margin: 20px;
+	color:#000;
+	text-decoration: none;
+	color: #000; 
+}
+
+header nav ul li a:hover {
+
+}
