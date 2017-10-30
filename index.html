@@ -3,32 +3,155 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lyft</title>
+	<!-- enlazado con css -->
 	<link rel="stylesheet" href="css/main.css">
+	<!-- fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/7b33261934.js"></script>
+
 </head>
 
 <body>
-	<header>
-		<img class="hola" src="assets/images/hero.gif" alt="foto">
-		
+  <div class="imagen-fondo"> <!-- div antes de header para posicionar en css imagen la de fondo -->
+	<header><!-- menu encabezado  -->
+		<div><img class="otro" src="assets/images/logo-white.png" alt="foto2"></div>
 
-
-		
- 	<div class="caja">
-     <div class="logo"><img src="assets/images/logo-white.png" alt="foto2"> </div>
-		<nav>
+     <div class="caja">	
+      
       <ul>
 		
-        <li><a href="#">Lyft</a></li>
-		<li><a href="#">Drive</a></li>
-		<li><a href="#">Explore</a></li>
-		<li><a href="#">Help</a></li>
+		<a href="#">Drive</a>
+		<a href="#">Explore</a>
+		<a href="#">Help</a>
+		<a class="boton" href="#">Log In</a> 
 	
-	  </ul>
-	   </nav>
+      </ul>
+	   
 	 </div>
 	</header>
+	<section>
+	<div class="parte-blanca">
+        <div class="texto">
+			<h1>TURN MILES <br> INTO MONEY</h1>
+			<h5 class="other-color">SIGN UP TO DRIVE WITH LIFT.<h5><br>
+			<input type="text" name="name"
+			placeholder="Phone Number"> <hr class="line-phone">
+			<input type="submit" value="Become a driver"><a class="driver" href="#">Sing up to ride</a>
+			<p>Already applied?>Check the status of your application here.</p>
+			<p>Earn money for inviting friends to drive.Learn more</p>
+		</div>
+    </div>
+
+  <div id="contenedor1">
+  </div> 
+	  <div id="contenedor2">
+		
+		<div class="palabras"> 
+		
+			<h2>A RIDE IN MINUTES</h2>
+				<br>
+        	<p> Request a ride and you’ll be on your way in minutes. Request. Ride. Repeat.</p>
+				<br>
+        	<h2>SERIOUS ABOUT SAFETY</h2>
+		        <br>
+        	<p>From knowing the color of your driver’s car to our 24/7 Trust & Safety Team, we got you</p>
+        		<br>
+        	<h2> HAPPY DRIVERS. <br> HAPPY RIDERS.</h2>
+        		<br>
+        	<p>Ride with us and you’ll see why 9 out of 10 rides end with five stars.</p> 
+        </div>
+
+		<div><img  class="celu" src="assets/images/phone.png" alt="telefono"></div>
+	  </div> 
+   </div>
 
 
+   <div class="parte-videos">
+   	<div class="otro-texto">
+   	<h3 class="small">Watch</h3><!-- todos los watch en pequeño-->
+   	<h3>Amplify Your Ride</h3>
+   	<br>
+   	<p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
+   </div>
+   <iframe width="854" height="480" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allowfullscreen></iframe>
+   </div>
+ 	
+ <div class="videos2"> <!--primero iframe video luego texto invertido del anterior-->
+
+ 	<iframe width="854" height="480" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" allowfullscreen></iframe>
+   	 
+   	 <div class="texto2">
+   	  <h3 class="small">Watch</h3>
+   	  <h3>June</h3>
+   	  <br>
+   	 <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride - and sharing her life, too.</p>
+  </div>
+   
+   </div>
+ <div class="videos3">
+   	<div class="texto3">
+   	<h3 class="small">Watch</h3>
+   	<h3>A GOOD THING GOING</h3>
+   	<br>
+   	<p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, shorts ETAs, and safety.</p>
+   </div>
+   <iframe width="854" height="480" src="https://www.youtube.com/embed/xj2VWLV0xCU" frameborder="0" allowfullscreen></iframe>
+   </div>
+
+</section>
+
+<footer> <!-- dos footer para separar seccion de iconos-->
+	<div class="pie-pagina">
+	
+				<ul>
+					<li><h3><a href="#">Log in</a></h3></li><!-- titulo dentro de lista-->
+					<li><a class="links" href="#">Help</a></li>
+					<li><a class="links" href="#">Cities</a></li>
+					<li><a class="links" href="#">Airports</a></li>
+					<li><a class="links" href="#">Fare Estimated</a></li>
+				</ul> 
+		
+	
+				<ul>
+					<li><h3><a href="#">Partner</a></h3></li>
+					<li><a class="links" href="#">Partnerships</a></li>
+					<li><a class="links" href="#">Enterprise</a></li>
+					<li><a class="links" href="#">Ambassadors</a></li>
+					<li><a class="links" href="#">Developers</a></li>
+				</ul>
+			
+			
+				<ul>
+					<li><h3><a href="#">Learn</a></h3></li>
+					<li><a class="links" href="#">Safety</a></li>
+					<li><a class="links" href="#">Blog</a></li>
+					<li><a class="links" href="#">Press</a></li>
+					<li><a class="links" href="#">Careers</a></li>
+				</ul>
+			
+		
+				<ul>
+					<li><img src="assets/images/apple-store.svg" alt="manzana"></li>
+					<li><img src="assets/images/google-play.png" alt="buscador"></li>
+					<li><img src="assets/images/microsoft.png" alt="mycrosoft"></li>
+				</ul>
+
+
+		<div class="footer-end"> <!-- clase para el segundo footer -->
+			<ul class="iconweb">
+				<li><a class="circle" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a class="circle" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a class="circle" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+			<hr class="lastline"> <!-- no logro posicionarlo :(-->
+			<div class="lastlast">
+			<p class="last">© 2017 Lyft, Inc.
+			<a class="links" href="#">Terms</a>
+			<a class="links" href="#">Privacy</a></p>
+			</div>
+		</div>
+	
+</footer>
 	
 </body>
 </html>
