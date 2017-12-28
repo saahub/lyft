@@ -71,7 +71,7 @@ header {
 }
 
 .parte-blanca { 
- margin-left: 60%;
+ margin-left: 739px;
  margin-top:10%; 
  position: absolute;
  background-color: #FFF;
@@ -79,7 +79,6 @@ header {
 }
 
 .texto {
- width: 100%;
  height: 410px;
  margin: 35px;
  
@@ -88,6 +87,15 @@ header {
  .line-phone {
 	color:#352384 ;
 }
+
+hr{
+	width: 450px;
+}
+
+h5 br {
+	width: 130px;
+}
+
 h1 {
 	font-size: 2.5em;
 	min-width: 540px;
@@ -96,13 +104,15 @@ h1 {
 }
 
 .other-color{
-	padding-right:336px;
 	color: #352384;
-	margin: 5px;
+	margin: 0px;
 
 }
 
  .texto p {
+ 	padding: 0px;
+ 	margin: 0px;
+ 	width: 250px;
  	padding-top: 34px;
  	padding-left: 0px;
  	padding-bottom: 13px;
@@ -149,7 +159,7 @@ input[type=button], input[type=submit], input[type=reset] {
  display: inline-flex;
 }
 
-.palabras  {
+.palabras{
 	
 	margin-left: 13%;
 	width: 30%;
@@ -160,8 +170,6 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .palabra h2 {
  font-size: 28px;
-    
-    
 }
 
 p {
@@ -236,69 +244,42 @@ h3 {
 
 }
 
-
-.pie-pagina {
-	color: #fff;	
-	display:inline-flex;
+footer{
 	width: 100%;
-	height: 500px;
-	background-color: #333447;
-	padding-bottom: 0px;
-    
+	height: 400px;
+	background-color:#333447;
+
 }
 
+.forFooter {
+	display: inline-block;
+	margin: 30px 90px 20px;
+}
 
-
-.pie-pagina ul {
-	margin: 5px 30px;
+ul li {
 	list-style: none;
-	padding: 0;
-	
+	line-height: 40px;
+	color:#FFF;
 }
 
-.pie-pagina ul li {
- margin: 30px;
-}
-	
-.pie-pagina ul li a {
-	margin: 45px;
-    text-decoration: none;
-    color:#fff;
-}
-.pie-pagina h3 {
-	font-family: "Montserrat"; 
-	margin: 30px;
-}
-
-.pie-pagina h3 a {
-	text-decoration: none;
-    color:#fff;
-   
-}   
-
-.pie-pagina li img {
-  width: 135px;
- 
-}	
-
-section .footer-end{
-	display: block;
+li h4 {
+	font-size: 15px;
 }
 
 
 
-div.footer-end  {
-    list-style: none;
-	padding: 0 15px;
-	margin-bottom: 5px;
-
+#tamaño{
+	width: 145px;
+	height: 50px;
 }
 
-.footer-end ul li{
-display:block;
 
-
+.final a {
+	margin-left: 250px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
+
 
 .circle {
 	font-size: 16px;
@@ -309,43 +290,18 @@ display:block;
 	text-align: center;
 	border: 1px solid #fff;
 	border-radius: 100%;
-	margin: 0 30px;
+	margin: 0 5px;
 }
 
-.circle  .fa {
+.circle .fa {
 	color: #FFF;
-
 }
 
-.footer-end p {
-	text-align: center;
-	display: block;
+.lin hr {
+margin-left: 350px;
 }
 
-.iconweb {
-	width: 160px;
-	height: 306px;
-	
+.right p {
+margin-left: 400px;
 }
-
-.lastline {
-    border: none;
-    border-bottom: 1px solid #EEE;
-    width: 700px;
-    height: 2px;
-    margin: auto;
-}
-
-
-.lastline{
- 	text-align: center;
- 	display: inline-block;
- }
-
-
-.lastlast {
-	display: block;
-
-}
-
 
